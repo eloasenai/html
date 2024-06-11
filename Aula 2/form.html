@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1 class="textoCentro fundo">
+      <a href="index.html">Home</a>
+      <a heref="https://www.google.com/" target="_Blank">Google</a>
+      <a href="https://www.github.com/pietra202" target="_parent">Git-Hub</a>
+      <a href="https://www.twitter.com/" target="_self">X - Twitter</a>
+      <a href="https://www.instagram.com/" target="_top">Instagram</a>
+    </h1>
+
+    <form action="">
+      <h1>Entre em contato</h1>
+      <p>Ficaremos felizes em atende-los</p>
+      <p>
+        <input id="nome" type="text" size="40" placehalder="Nome:" />
+        <input id="email" type="email" size="40" placehalder="E-mail:" />
+        <textarea
+          id="areaTexto"
+          nome=""
+          id=""
+          cols="40"
+          rows="10"
+          placeholder="Mensagem:"
+        ></textarea>
+      </p>
+      <input
+        type="button"
+        onclick="enviar()
+        "
+        value="Enviar"
+      />
+    </form>
+    <span id=""resposta></span>
+  </body>
+  <script src="js/script.js"></script>
+</html>
